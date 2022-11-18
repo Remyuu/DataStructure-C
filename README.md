@@ -8,6 +8,7 @@
 <!--more-->
 
 
+
 # 1.顺序表
 ## 结构-2022/9/6.
 
@@ -2186,6 +2187,7 @@ typedef struct seqBinTree{
 
 ## 顺序存储二叉树代码
 ```C
+
 //
 //  main.c
 //  DS16_seqBinaryTree
@@ -2225,6 +2227,14 @@ int getLeftChild(sbt* seqbt,int index);
 int getRightChild(sbt* seqbt,int index);
 int getParent(sbt* seqbt,int index);
 
+void LNR(sbt* seqbt,int index);//中序遍历 左中右
+void NLR(sbt* seqbt,int index);//先序遍历 中左右
+void LRN(sbt* seqbt,int index);//后序遍历 左右中
+
+void ExchangeBiTree(sbt* seqbt);//交换顺序二叉树
+
+void CountLeaf(sbt* seqbt);//判断叶子节点
+
 sbt* CreateSeqBiTree(int size){
     sbt* seqbt = (sbt*)malloc(sizeof(sbt));
     seqbt->data= (int*)malloc((size+1)*sizeof(int));
@@ -2263,6 +2273,67 @@ int getParent(sbt* seqbt,int index){
     return seqbt->data[index/2];
 }
 
+void LNR(sbt* seqbt,int index){
+    if(index<=seqbt->length){
+        LNR(seqbt,index*2);
+        printf("%d ",seqbt->data[index]);
+        LNR(seqbt,index*2+1);
+    }
+}
+
+void NLR(sbt* seqbt,int index){
+    if(index<=seqbt->length){
+        printf("%d ",seqbt->data[index]);
+        NLR(seqbt,index*2);
+        NLR(seqbt,index*2+1);
+    }
+}
+
+void LRN(sbt* seqbt,int index){
+    if(index<=seqbt->length){
+        LRN(seqbt,index*2);
+        LRN(seqbt,index*2+1);
+        printf("%d ",seqbt->data[index]);
+    }
+}
+
+void ExchangeBiTree(sbt* seqbt){
+    //思想：按照层交换，对位交换，先从第二层开始
+    int k=2,i,j;int value;
+    while(k<=seqbt->length){
+        for (i=k,j=2*k-1; i<k; i++,j--) {
+            value=seqbt->data[i];
+            seqbt->data[i]=seqbt->data[j];
+            seqbt->data[j]=value;
+        }
+        k*=2;
+    }
+}
+
+
+/*
+ 特别说明，由于这个代码的数据结构是完全二叉树的，所以在length/2之前没有空树。
+ 但是以下代码是任意二叉树，具体实现也不难，这里提供完整思路。
+ 设节点的值是char，便可以存储'0'代表空节点。从也是1开始索引。
+ */
+
+//int CountLeaf(sbt* seqbt){
+//    int level,j,count;//level 层数，j 当前索引值，count 当前叶子数量
+//    level=1;count=0;
+//    while(level<=seqbt->length/2){//判断编号不大于int(length/2)的节点
+//        for (j=level; j<=2*j-1; j++) {
+//            if(seqbt->data[j]!='0'&&seqbt->data[2*j]==seqbt->data[2*j+1]=='0')
+//                count++;
+//            level*=2;
+//        }
+//    }//此时level是int(length/2)=1
+//    for (j=level; j<=seqbt->length; j++) {
+//        if(seqbt->data[j]!='0')count++;
+//    }
+//    return count;
+//}
+
+
 int main(){
     sbt* bt= CreateSeqBiTree(10);
     //setBiTree(bt);
@@ -2271,7 +2342,10 @@ int main(){
            getLeftChild(bt, 2),
            getRightChild(bt, 2),
            getParent(bt, 2));
+
 }
+
+
 ```
 
 

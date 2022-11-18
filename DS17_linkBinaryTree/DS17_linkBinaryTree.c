@@ -192,6 +192,51 @@ void getPredecessor(lbn* root,lbn* target){
 }
 
 
+int count=0;
+int LeafNode(lbn* lb){
+    if(lb==NULL) return 0;
+    else if(lb->lc==NULL&&lb->rc==NULL) count++;
+    //是否是叶子结点的判断
+    LeafNode(lb->lc);
+    LeafNode(lb->rc);
+    return count;
+}
+
+
+
+int LeafNode1(lbn* lb){
+    if(lb==NULL) return 0;
+    else count++;
+    //是否是结点的判断
+    LeafNode(lb->lc);
+    LeafNode(lb->rc);
+    return count;
+}
+
+
+
+int LeafNode2(lbn* lb){
+    if(lb==NULL) return 0;
+    else if((lb->lc==NULL&&lb->rc!=NULL)|| (lb->lc!=NULL&&lb->rc==NULL)) count++;
+    LeafNode(lb->lc);
+    LeafNode(lb->rc);
+    return count;
+}
+
+
+int Depth(lbn* lb)
+{
+    if(lb==NULL)
+        return 0;
+    else{
+        int ldepth=Depth(lb->lc);
+        int rdepth=Depth(lb->rc);
+        if(ldepth>rdepth)
+            return ldepth+1;
+        else
+            return rdepth+1;
+    }
+}
 
 int main(){
     lbn* root = CreateLinkBiTreeRoot(1);

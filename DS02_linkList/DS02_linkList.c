@@ -16,16 +16,16 @@ typedef struct LNode{
 }lnode;
 
 //基本操作
-lnode* CreateLNode(int n);
-int GetLinkLength(lnode *head);
-int GetValue(lnode *head,int index);
-int FindIndex(lnode *head,int value);
-int Delete(lnode *head,int index);
-int InsertValue(lnode *head,int index,int value);
-void PrintLink(lnode *head);
+lnode* CreateLNode(int n);//创建链表
+int GetLinkLength(lnode *head);//获取链表长度
+int GetValue(lnode *head,int index);//通过索引获取
+int FindIndex(lnode *head,int value);//通过值找到索引
+int Delete(lnode *head,int index);//删除
+int InsertValue(lnode *head,int index,int value);//插入
+void PrintLink(lnode *head);//输出
 
 //涉及算法
-int Turn(lnode *head);
+int Turn(lnode *head);//翻转
 
 int main(void){
     printf("DS02_linkList \n");

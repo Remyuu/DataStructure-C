@@ -17,9 +17,9 @@ typedef struct DNode{
 }dnode;
 
 //基本操作
-dnode* CreateDNode(int n);
-int Insert(dnode *head,int index,int value);
-int Delete(dnode *head,int index);
+dnode* CreateDNode(int n);//创建双头链表
+int Insert(dnode *head,int index,int value);//插入
+int Delete(dnode *head,int index);//删除
 void PrintLink(dnode *head);//与LNode一样,只是增加了逆向输出的功能
 int GetLinkLength(dnode *head);//与LNode一样
 int GetValue(dnode *head,int index);//与LNode一样

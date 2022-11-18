@@ -19,12 +19,13 @@ typedef struct sqlist
     int listsize;
 }sqnode;//表头
 
-void initlist(sqnode *L);
-int getlen(sqnode *L);
-int getelem(sqnode *L,int i, int *e);
-void list(sqnode *L);
-int insert(sqnode *L,int i,int x);
-int SeqListErase(sqnode* sl, int pos);
+//基本操作
+void initlist(sqnode *L);//初始化顺序表
+int getlen(sqnode *L);//获取顺序表长度
+int getelem(sqnode *L,int i, int *e);//获取元素
+void list(sqnode *L);//打印顺序表
+int insert(sqnode *L,int i,int x);//插入
+int SeqListErase(sqnode* sl, int pos);//顺序表清空
 
 int main(void)
 {

@@ -19,8 +19,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define Row 4 /*行*/
-#define Col 5 /*列*/
 #define SIZE 100 /*定义顺序表最大长度*/
 
 typedef struct{
@@ -34,6 +32,7 @@ typedef struct{
     int valuenum;//非0元素个数
     TupleNode data[SIZE];
 }Matrix;
+int Row;int Col;
 
 Matrix* CreateSparseTable(int A[Row][Col]);
 int GetValue(Matrix* M,int i,int j);
@@ -57,19 +56,16 @@ Matrix* CreateSparseTable(int A[Row][Col]){
 }
 
 int GetValue(Matrix* M,int i,int j){
-    
     int q,value;
     value = 0;
     for (q=0; q<M->valuenum; q++)
         if(M->data[q].i==i&&M->data[q].j==j)
             value = M->data[q].value;
-    
     return value;
 }
 
 void Insert(Matrix* M,int i,int j,int value){
     int q;
-
     for (q=0; q<M->valuenum; q++)
         if(M->data[q].i==i&&M->data[q].j==j){
             M->data[q].value = value;
@@ -93,7 +89,23 @@ void Show(Matrix* M){
         }
         printf("\n");
     }
-    
+}
+
+Matrix* revangeMatrix(Matrix* M){
+    int MatrixDt[M->colnum][M->rownum];
+    int i,j,q,value;
+    for (i=0; i<M->rownum; i++){
+        for (j=0; j<M->colnum; j++) {
+            value = 0;
+            for (q=0; q<M->valuenum; q++)
+                if(M->data[q].i==i&&M->data[q].j==j)
+                    value = M->data[q].value;
+            MatrixDt[j][i]=value;
+        }
+    }
+    int temp=Row;
+    Row=Col;Col=temp;
+    return CreateSparseTable(MatrixDt);
 }
 
 
@@ -103,9 +115,12 @@ int main(){
         {4,0,0,0,0},
         {0,0,1,0,0},
         {0,1,0,0,0}};
-    Matrix* M;
+    Matrix* M,*MDt;
+    Row=4;Col=5;
     M = CreateSparseTable(testMatrix);
     Show(M);
     printf("%d \n",GetValue(M, 1, 0));
-    
+    printf("转置：\n");
+    MDt = revangeMatrix(M);
+    Show(MDt);
 }

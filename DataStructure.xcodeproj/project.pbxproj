@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		464F855128E6ED9600A091AC /* DS08_linkStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 464F855028E6ED9600A091AC /* DS08_linkStack.c */; };
 		4664D343290D30E5001F416E /* DS17_linkBinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 4664D342290D30E5001F416E /* DS17_linkBinaryTree.c */; };
+		466533C3291415900008D0EF /* DS20_BalancedBinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 466533C2291415900008D0EF /* DS20_BalancedBinaryTree.c */; };
+		46787B1F291A3E5800091DE8 /* DS21_HuffmanTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 46787B1E291A3E5800091DE8 /* DS21_HuffmanTree.c */; };
+		46787B2B291CD89000091DE8 /* DS22_graph.c in Sources */ = {isa = PBXBuildFile; fileRef = 46787B2A291CD89000091DE8 /* DS22_graph.c */; };
 		4688AF47290FBF9700F68F9C /* DS18_threadLinkBinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 4688AF46290FBF9700F68F9C /* DS18_threadLinkBinaryTree.c */; };
 		46946D9628CF7F41001B2B56 /* DS01_seqList.c in Sources */ = {isa = PBXBuildFile; fileRef = 46946D9428CF7F41001B2B56 /* DS01_seqList.c */; };
 		4695280328D99AB9003B885C /* DS02_linkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 46DB2F6B28D5B4D400052506 /* DS02_linkList.c */; };
@@ -21,6 +24,7 @@
 		469D512529022D31001FCB7C /* SortingAlgorithm.c in Sources */ = {isa = PBXBuildFile; fileRef = 469D512429022D31001FCB7C /* SortingAlgorithm.c */; };
 		469D51312903CE8A001FCB7C /* DS16_seqBinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 469D51302903CE8A001FCB7C /* DS16_seqBinaryTree.c */; };
 		46A2C6D728F04B2A009E8E59 /* DS09_circleQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 46A2C6D628F04B2A009E8E59 /* DS09_circleQueue.c */; };
+		46D338042914B10000CD417E /* DS19_BinarySearchTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 46D338032914B10000CD417E /* DS19_BinarySearchTree.c */; };
 		46F2A44728E41DB900763803 /* DS06_staticList.c in Sources */ = {isa = PBXBuildFile; fileRef = 46F2A44628E41DB900763803 /* DS06_staticList.c */; };
 		46F2A45228E42B2700763803 /* DS07_seqStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 46F2A45128E42B2700763803 /* DS07_seqStack.c */; };
 		46F8D53E28F6A04800ACC81E /* DS11_seqString.c in Sources */ = {isa = PBXBuildFile; fileRef = 46F8D53D28F6A04800ACC81E /* DS11_seqString.c */; };
@@ -39,6 +43,33 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		4664D33E290D30E5001F416E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		466533BE291415900008D0EF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		46787B1A291A3E5800091DE8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		46787B26291CD89000091DE8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -155,6 +186,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		46D337FF2914B10000CD417E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		46F2A44228E41DB900763803 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -207,6 +247,13 @@
 		464F855028E6ED9600A091AC /* DS08_linkStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DS08_linkStack.c; sourceTree = "<group>"; };
 		4664D340290D30E5001F416E /* DS17_linkBinaryTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DS17_linkBinaryTree; sourceTree = BUILT_PRODUCTS_DIR; };
 		4664D342290D30E5001F416E /* DS17_linkBinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DS17_linkBinaryTree.c; sourceTree = "<group>"; };
+		466533C0291415900008D0EF /* DS20_BalancedBinaryTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DS20_BalancedBinaryTree; sourceTree = BUILT_PRODUCTS_DIR; };
+		466533C2291415900008D0EF /* DS20_BalancedBinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DS20_BalancedBinaryTree.c; sourceTree = "<group>"; };
+		46787B1C291A3E5800091DE8 /* DS21_HuffmanTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DS21_HuffmanTree; sourceTree = BUILT_PRODUCTS_DIR; };
+		46787B1E291A3E5800091DE8 /* DS21_HuffmanTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DS21_HuffmanTree.c; sourceTree = "<group>"; };
+		46787B23291B790500091DE8 /* DS01.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DS01.md; sourceTree = "<group>"; };
+		46787B28291CD89000091DE8 /* DS21_graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DS21_graph; sourceTree = BUILT_PRODUCTS_DIR; };
+		46787B2A291CD89000091DE8 /* DS22_graph.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DS22_graph.c; sourceTree = "<group>"; };
 		4688AF44290FBF9600F68F9C /* DS18_threadLinkBinaryTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DS18_threadLinkBinaryTree; sourceTree = BUILT_PRODUCTS_DIR; };
 		4688AF46290FBF9700F68F9C /* DS18_threadLinkBinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DS18_threadLinkBinaryTree.c; sourceTree = "<group>"; };
 		46946D8728CF7F0A001B2B56 /* DS01_sqlist */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DS01_sqlist; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -231,6 +278,8 @@
 		469D51302903CE8A001FCB7C /* DS16_seqBinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DS16_seqBinaryTree.c; sourceTree = "<group>"; };
 		46A2C6D428F04B2A009E8E59 /* DS09_circleQueue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DS09_circleQueue; sourceTree = BUILT_PRODUCTS_DIR; };
 		46A2C6D628F04B2A009E8E59 /* DS09_circleQueue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DS09_circleQueue.c; sourceTree = "<group>"; };
+		46D338012914B10000CD417E /* DS19_BinarySearchTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DS19_BinarySearchTree; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D338032914B10000CD417E /* DS19_BinarySearchTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DS19_BinarySearchTree.c; sourceTree = "<group>"; };
 		46DB2F6B28D5B4D400052506 /* DS02_linkList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DS02_linkList.c; sourceTree = "<group>"; };
 		46F2A44428E41DB900763803 /* DS06_staticList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DS06_staticList; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F2A44628E41DB900763803 /* DS06_staticList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DS06_staticList.c; sourceTree = "<group>"; };
@@ -255,6 +304,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4664D33D290D30E5001F416E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466533BD291415900008D0EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46787B19291A3E5800091DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46787B25291CD89000091DE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -345,6 +415,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		46D337FE2914B10000CD417E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		46F2A44128E41DB900763803 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,6 +476,30 @@
 			path = DS17_linkBinaryTree;
 			sourceTree = "<group>";
 		};
+		466533C1291415900008D0EF /* DS20_BalancedBinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				466533C2291415900008D0EF /* DS20_BalancedBinaryTree.c */,
+			);
+			path = DS20_BalancedBinaryTree;
+			sourceTree = "<group>";
+		};
+		46787B1D291A3E5800091DE8 /* DS21_HuffmanTree */ = {
+			isa = PBXGroup;
+			children = (
+				46787B1E291A3E5800091DE8 /* DS21_HuffmanTree.c */,
+			);
+			path = DS21_HuffmanTree;
+			sourceTree = "<group>";
+		};
+		46787B29291CD89000091DE8 /* DS22_graph */ = {
+			isa = PBXGroup;
+			children = (
+				46787B2A291CD89000091DE8 /* DS22_graph.c */,
+			);
+			path = DS22_graph;
+			sourceTree = "<group>";
+		};
 		4688AF45290FBF9700F68F9C /* DS18_threadLinkBinaryTree */ = {
 			isa = PBXGroup;
 			children = (
@@ -410,6 +511,7 @@
 		46946D7E28CF7F0A001B2B56 = {
 			isa = PBXGroup;
 			children = (
+				46787B23291B790500091DE8 /* DS01.md */,
 				46F2A45628E42B5E00763803 /* README.md */,
 				46F8D53628F6942100ACC81E /* 错题集.md */,
 				469D512329022D31001FCB7C /* SortingAlgorithm */,
@@ -431,6 +533,10 @@
 				469D512F2903CE8A001FCB7C /* DS16_seqBinaryTree */,
 				4664D341290D30E5001F416E /* DS17_linkBinaryTree */,
 				4688AF45290FBF9700F68F9C /* DS18_threadLinkBinaryTree */,
+				46D338022914B10000CD417E /* DS19_BinarySearchTree */,
+				466533C1291415900008D0EF /* DS20_BalancedBinaryTree */,
+				46787B1D291A3E5800091DE8 /* DS21_HuffmanTree */,
+				46787B29291CD89000091DE8 /* DS22_graph */,
 				46946D8828CF7F0A001B2B56 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -457,6 +563,10 @@
 				469D512E2903CE8A001FCB7C /* DS16_seqBinaryTree */,
 				4664D340290D30E5001F416E /* DS17_linkBinaryTree */,
 				4688AF44290FBF9600F68F9C /* DS18_threadLinkBinaryTree */,
+				466533C0291415900008D0EF /* DS20_BalancedBinaryTree */,
+				46D338012914B10000CD417E /* DS19_BinarySearchTree */,
+				46787B1C291A3E5800091DE8 /* DS21_HuffmanTree */,
+				46787B28291CD89000091DE8 /* DS21_graph */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -550,6 +660,14 @@
 			path = DS09_circleQueue;
 			sourceTree = "<group>";
 		};
+		46D338022914B10000CD417E /* DS19_BinarySearchTree */ = {
+			isa = PBXGroup;
+			children = (
+				46D338032914B10000CD417E /* DS19_BinarySearchTree.c */,
+			);
+			path = DS19_BinarySearchTree;
+			sourceTree = "<group>";
+		};
 		46F2A44528E41DB900763803 /* DS06_staticList */ = {
 			isa = PBXGroup;
 			children = (
@@ -625,6 +743,57 @@
 			name = DS17_linkBinaryTree;
 			productName = DS17_linkedBinaryTree;
 			productReference = 4664D340290D30E5001F416E /* DS17_linkBinaryTree */;
+			productType = "com.apple.product-type.tool";
+		};
+		466533BF291415900008D0EF /* DS20_BalancedBinaryTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466533C6291415900008D0EF /* Build configuration list for PBXNativeTarget "DS20_BalancedBinaryTree" */;
+			buildPhases = (
+				466533BC291415900008D0EF /* Sources */,
+				466533BD291415900008D0EF /* Frameworks */,
+				466533BE291415900008D0EF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DS20_BalancedBinaryTree;
+			productName = DS19_BalancedBinaryTree;
+			productReference = 466533C0291415900008D0EF /* DS20_BalancedBinaryTree */;
+			productType = "com.apple.product-type.tool";
+		};
+		46787B1B291A3E5800091DE8 /* DS21_HuffmanTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46787B22291A3E5800091DE8 /* Build configuration list for PBXNativeTarget "DS21_HuffmanTree" */;
+			buildPhases = (
+				46787B18291A3E5800091DE8 /* Sources */,
+				46787B19291A3E5800091DE8 /* Frameworks */,
+				46787B1A291A3E5800091DE8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DS21_HuffmanTree;
+			productName = DS21_HuffmanTree;
+			productReference = 46787B1C291A3E5800091DE8 /* DS21_HuffmanTree */;
+			productType = "com.apple.product-type.tool";
+		};
+		46787B27291CD89000091DE8 /* DS21_graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46787B2C291CD89000091DE8 /* Build configuration list for PBXNativeTarget "DS21_graph" */;
+			buildPhases = (
+				46787B24291CD89000091DE8 /* Sources */,
+				46787B25291CD89000091DE8 /* Frameworks */,
+				46787B26291CD89000091DE8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DS21_graph;
+			productName = DS21_graph;
+			productReference = 46787B28291CD89000091DE8 /* DS21_graph */;
 			productType = "com.apple.product-type.tool";
 		};
 		4688AF43290FBF9600F68F9C /* DS18_threadLinkBinaryTree */ = {
@@ -831,6 +1000,23 @@
 			productReference = 46A2C6D428F04B2A009E8E59 /* DS09_circleQueue */;
 			productType = "com.apple.product-type.tool";
 		};
+		46D338002914B10000CD417E /* DS19_BinarySearchTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D338052914B10000CD417E /* Build configuration list for PBXNativeTarget "DS19_BinarySearchTree" */;
+			buildPhases = (
+				46D337FD2914B10000CD417E /* Sources */,
+				46D337FE2914B10000CD417E /* Frameworks */,
+				46D337FF2914B10000CD417E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DS19_BinarySearchTree;
+			productName = DS19_BinarySearchTree;
+			productReference = 46D338012914B10000CD417E /* DS19_BinarySearchTree */;
+			productType = "com.apple.product-type.tool";
+		};
 		46F2A44328E41DB900763803 /* DS06_staticList */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46F2A44828E41DB900763803 /* Build configuration list for PBXNativeTarget "DS06_staticList" */;
@@ -923,13 +1109,22 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					464F854D28E6ED9600A091AC = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					4664D33F290D30E5001F416E = {
 						CreatedOnToolsVersion = 13.4.1;
+					};
+					466533BF291415900008D0EF = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					46787B1B291A3E5800091DE8 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					46787B27291CD89000091DE8 = {
+						CreatedOnToolsVersion = 14.1;
 					};
 					4688AF43290FBF9600F68F9C = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -966,6 +1161,9 @@
 					};
 					46A2C6D328F04B2A009E8E59 = {
 						CreatedOnToolsVersion = 13.4.1;
+					};
+					46D338002914B10000CD417E = {
+						CreatedOnToolsVersion = 14.1;
 					};
 					46F2A44328E41DB900763803 = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -1016,6 +1214,10 @@
 				469D512129022D31001FCB7C /* SortingAlgorithm */,
 				4664D33F290D30E5001F416E /* DS17_linkBinaryTree */,
 				4688AF43290FBF9600F68F9C /* DS18_threadLinkBinaryTree */,
+				46D338002914B10000CD417E /* DS19_BinarySearchTree */,
+				466533BF291415900008D0EF /* DS20_BalancedBinaryTree */,
+				46787B1B291A3E5800091DE8 /* DS21_HuffmanTree */,
+				46787B27291CD89000091DE8 /* DS21_graph */,
 			);
 		};
 /* End PBXProject section */
@@ -1034,6 +1236,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				4664D343290D30E5001F416E /* DS17_linkBinaryTree.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466533BC291415900008D0EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466533C3291415900008D0EF /* DS20_BalancedBinaryTree.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46787B18291A3E5800091DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46787B1F291A3E5800091DE8 /* DS21_HuffmanTree.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46787B24291CD89000091DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46787B2B291CD89000091DE8 /* DS22_graph.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1133,6 +1359,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		46D337FD2914B10000CD417E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D338042914B10000CD417E /* DS19_BinarySearchTree.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		46F2A44028E41DB900763803 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1179,7 +1413,9 @@
 		464F855328E6ED9600A091AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1187,7 +1423,9 @@
 		464F855428E6ED9600A091AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1195,7 +1433,9 @@
 		4664D344290D30E5001F416E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1203,7 +1443,73 @@
 		4664D345290D30E5001F416E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		466533C4291415900008D0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		466533C5291415900008D0EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46787B20291A3E5800091DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46787B21291A3E5800091DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46787B2D291CD89000091DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46787B2E291CD89000091DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1211,7 +1517,9 @@
 		4688AF48290FBF9700F68F9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1219,7 +1527,9 @@
 		4688AF49290FBF9700F68F9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1257,6 +1567,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -1315,6 +1626,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1336,7 +1648,9 @@
 		46946D8F28CF7F0A001B2B56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1344,7 +1658,9 @@
 		46946D9028CF7F0A001B2B56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1352,7 +1668,9 @@
 		4695280028D99AA8003B885C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1360,7 +1678,9 @@
 		4695280128D99AA8003B885C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1368,7 +1688,9 @@
 		4695280C28E1B0DC003B885C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1376,7 +1698,9 @@
 		4695280D28E1B0DC003B885C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1384,7 +1708,9 @@
 		4695281728E2D619003B885C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1392,7 +1718,9 @@
 		4695281828E2D619003B885C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1400,7 +1728,9 @@
 		4695282328E31699003B885C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1408,7 +1738,9 @@
 		4695282428E31699003B885C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1416,7 +1748,9 @@
 		469D510528FE834F001FCB7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1424,7 +1758,9 @@
 		469D510628FE834F001FCB7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1432,7 +1768,9 @@
 		469D511128FFBF23001FCB7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1440,7 +1778,9 @@
 		469D511228FFBF23001FCB7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1448,7 +1788,9 @@
 		469D511C28FFEB58001FCB7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1456,7 +1798,9 @@
 		469D511D28FFEB58001FCB7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1464,7 +1808,9 @@
 		469D512729022D31001FCB7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1472,7 +1818,9 @@
 		469D512829022D31001FCB7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1480,7 +1828,9 @@
 		469D51322903CE8A001FCB7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1488,7 +1838,9 @@
 		469D51332903CE8A001FCB7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1496,7 +1848,9 @@
 		46A2C6D928F04B2A009E8E59 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1504,7 +1858,29 @@
 		46A2C6DA28F04B2A009E8E59 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46D338062914B10000CD417E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46D338072914B10000CD417E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1512,7 +1888,9 @@
 		46F2A44928E41DB900763803 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1520,7 +1898,9 @@
 		46F2A44A28E41DB900763803 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1528,7 +1908,9 @@
 		46F2A45428E42B2700763803 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1536,7 +1918,9 @@
 		46F2A45528E42B2700763803 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1544,7 +1928,9 @@
 		46F8D54028F6A04800ACC81E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1552,7 +1938,9 @@
 		46F8D54128F6A04800ACC81E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1560,7 +1948,9 @@
 		46F8D54B28F9802F00ACC81E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1568,7 +1958,9 @@
 		46F8D54C28F9802F00ACC81E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1576,7 +1968,9 @@
 		46FD4F1428F1867A00AEE665 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1584,7 +1978,9 @@
 		46FD4F1528F1867A00AEE665 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1606,6 +2002,33 @@
 			buildConfigurations = (
 				4664D344290D30E5001F416E /* Debug */,
 				4664D345290D30E5001F416E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		466533C6291415900008D0EF /* Build configuration list for PBXNativeTarget "DS20_BalancedBinaryTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466533C4291415900008D0EF /* Debug */,
+				466533C5291415900008D0EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		46787B22291A3E5800091DE8 /* Build configuration list for PBXNativeTarget "DS21_HuffmanTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46787B20291A3E5800091DE8 /* Debug */,
+				46787B21291A3E5800091DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		46787B2C291CD89000091DE8 /* Build configuration list for PBXNativeTarget "DS21_graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46787B2D291CD89000091DE8 /* Debug */,
+				46787B2E291CD89000091DE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -1723,6 +2146,15 @@
 			buildConfigurations = (
 				46A2C6D928F04B2A009E8E59 /* Debug */,
 				46A2C6DA28F04B2A009E8E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		46D338052914B10000CD417E /* Build configuration list for PBXNativeTarget "DS19_BinarySearchTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D338062914B10000CD417E /* Debug */,
+				46D338072914B10000CD417E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

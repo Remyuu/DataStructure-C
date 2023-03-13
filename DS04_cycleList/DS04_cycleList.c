@@ -17,6 +17,7 @@ typedef struct CNode{
 
 //基本算法
 cnode *CreateList(int n);
+cnode *CreateCNode(int n);
 int GetLinkLength(cnode *head);
 int GetValue(cnode *head,int index);
 int FindIndex(cnode *head,int value);

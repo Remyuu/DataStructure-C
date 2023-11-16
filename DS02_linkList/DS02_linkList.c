@@ -149,9 +149,9 @@ void PrintLink(lnode *head){
 //逆置元素
 int Turn(lnode *head){
     lnode *p,*q;
-    p=head->next;
-    head->next=NULL;
-    while(p!=NULL){//断头，然后头连屁股。重复。
+    p=head->next;//将p放在第一个有元素的节点上
+    head->next=NULL;//头指针断连接
+    while(p!=NULL){
         q=p->next;
         p->next=head->next;
         head->next=p;
